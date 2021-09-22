@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="content-language" content="pt-BR, en-US,fr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Anderson Feltes"/>
+        <meta name="keywords" content="Cimol, informática, html, css, internet"/>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <script src="Js/script.js" defer></script>
+        <title>Imposto de Renda</title>
+
+    </head>
+    <body>
+
+        <h1>Calculadora Salarial</h1>
+
+        <div id="formulario">
+            <form name="form-imposto" id="form-imposto">
+                <div class="campo">
+                    <input name="nome" id="nome" placeholder="Digite seu nome aqui"/>
+                </div>
+                <div class="campo">
+                    <input name="dependentes" id="dependentes" placeholder="Digite quantos Dependentes"/>
+                </div>
+                <div class="campo">
+                    <input name="salarioBruto" id="salarioBruto" placeholder="Digite o seu salário bruto"/>
+                </div>
+                <div>
+                    <input type="submit" name="registro" id="registro" value="Registrar"/>
+                </div>
+                <div>
+                    <button id="encerrar">Encerrar</button>
+                </div>
+            </form>
+        </div>
+
+        <h2 id="resultado"></h2>
+
+        <div id="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th><th>Inss</th><th> Dependentes</th><th>IRRF</th><th>Salario Líquido</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+       
+    </body>
+
+</html>
